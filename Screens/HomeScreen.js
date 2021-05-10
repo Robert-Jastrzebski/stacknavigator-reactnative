@@ -37,6 +37,15 @@ const HomeScreen = ({ navigation }) => {
             <Text>LOGIN VIEW</Text>
           </TouchableOpacity>
         </View>
+        <View style={styles.buttonWrapper}>
+          <TouchableOpacity
+            style={styles.button}
+            title="Api Screen"
+            onPress={() => navigation.navigate("Api Screen")}
+          >
+            <Text>API VIEW</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </ImageBackground>
   );
